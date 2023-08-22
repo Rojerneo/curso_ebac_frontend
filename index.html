@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Execício Módulo 7</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Exercício Módulo 7</h1>
+        <h3>Digite seus números:</h3>
+        <form id="form-numeros">
+            <input type="number" id="primeiroNumero" placeholder="Digite o primeiro número" required>
+            <p class="message-error" id="primeiroNumero">
+                O primeiro número deverá ser menor que o segundo.
+            </p>
+            <input type="number" id="segundoNumero" placeholder="Digite o segundo número" required>
+            <button type="submit">ENVIAR</button>
+            <p class="success">
+                Números enviados com sucesso!
+            </p>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
