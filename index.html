@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastre-se e receba:</h1>
+        <div class="carousel">
+            <div>
+                <img src="./icons/icons8-cashback-68.png" alt="CashBack">
+                <p>5% de cash em qualquer compra</p>
+            </div>
+            <div>
+                <img src="./icons/icons8-email-100.png" alt="e-mail">
+                <p>Ofertas exclusivas por e-mail</p>
+            </div>
+            <div>
+                <img src="./icons/icons8-points-50.png" alt="Pontos de fidelidade">
+                <p>Pontos de fidelidade em dobro</p>
+            </div>
+        </div>
+        <h1>Formulário de Cadastro</h1>
+        <form>
+            <div class="info-basicas">
+                <h2>Dados Pessoais:</h2>
+                <label class="label-form" for="nome">Nome:</label>
+                <input id="nome" name="nome" type="text">
+                <label class="label-form" for="email">E-mail:</label>
+                <input id="email" name="email" type="email">
+                <label class="label-form" for="telefone">Telefone:</label>
+                <input id="telefone" name="telefone">
+                <label class="label-form" for="cpf">CPF:</label>
+                <input id="cpf" name="cpf">
+            </div>
+            <div class="endereco">
+                <h2>Endereço:</h2>
+                <label class="label-form" for="rua-av">Rua/Av:</label>
+                <input id="ruaAv" name="ruaAv" type="text">
+                <label class="label-form" for="numero">Nº:</label>
+                <input id="numero" type="number" name="numero">
+                <label class="label-form" for="bairro">Bairro:</label>
+                <input id="bairro" name="bairro" type="text">
+                <label class="label-form" for="cidade">Cidade:</label>
+                <input id="cidade" name="cidade" type="text">
+                <label class="label-form" for="cep">CEP:</label>
+                <input id="cep" name="cep">
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: rgb(152, 108, 194);
+}
+
+.container {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+.carousel img {
+    width: 36px;
+}
+
+.carousel {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+    width: 300px;
+}
+
+.carousel p {
+    color: rgb(152, 108, 194);
+}
+
+.slick-prev,
+.slick-arrow {
+    display: none;
+}
+
+h1 {
+    font-size: 24px;    
+    margin-bottom: 16px;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+h1,
+h2 {
+    color: rgb(152, 108, 194);
+}
+
+input,
+label {
+    display: block;
+    width: 290px;
+    font-size: 14px;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #986cc2;
+    border-radius: 5px;
+    outline-color: rgb(152, 108, 194);
+}
+
+label {
+    font-weight: bold;
+    color: rgb(255, 98, 98);
+    margin-top: 8px;
+}
+
+.label-form {
+    color: black
+}
+
+button {
+    width: 50%;
+    padding: 5px;
+    border: none;
+    background-color: rgb(152, 108, 194);
+    border-radius: 5px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.slick-slide img {
+    display: inline;
+}
+
