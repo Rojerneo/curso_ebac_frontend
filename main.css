@@ -1,0 +1,15 @@
+.formulario {
+    background-color: whitesmoke;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+
+input {
+    margin-bottom: 16px;
+}
+
+.h3,
+label {
+    color: #444;
+}
